@@ -6,13 +6,13 @@ IPBackgroundAudioManger is meant to ease implementation of background audio in i
 Setup
 =====
 
-**Include the 4 IPBackgroundAudio source files in your project, and also add these frameworks:**
+**Include the 2 IPBackgroundAudioManager source files in your project, and also add these frameworks:**
 
 * AVFoundation.framework
 * AudioToolbox.framework
 * MediaPlayer.framework
 
-![Xcode Project](http://i.imgur.com/rK37MZt.png)
+![Xcode Project](http://i.imgur.com/dWN8u3T.png)
 
 **Next, add the UIBackgroundModes key to your info.plist**
 
