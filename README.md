@@ -14,11 +14,11 @@ Setup
 
 **Next, add the UIBackgroundModes key to your info.plist**
 
-...image
+![Info.plist](http://i.imgur.com/63nlGHM.png)
 
 **Include IPBackgroundAudioManager.[mh] and UIResponder+IPBackgroundAudio.[mh] in your project.**
 
-...image
+![Xcode Project](http://i.imgur.com/rK37MZt.png)
 
 **Start the audio session before your app begins playing audio:**
 
