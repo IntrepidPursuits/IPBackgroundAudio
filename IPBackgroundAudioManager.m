@@ -153,3 +153,13 @@ void IPBackgroundAudioManagerRouteChangeCallback(void *inUserData,
 }
 
 @end
+
+@implementation UIResponder (IPBackgroundAudio)
+
+- (void)altRemoteControlReceivedWithEvent:(UIEvent *)event
+{
+    [[NSNotificationCenter defaultCenter] postNotificationName:IPBackgroundAudioNotificationRemoteControl object:self userInfo:@{IPBackgroundAudioRemoteControlEventKey : event}];
+    [self altRemoteControlReceivedWithEvent:event];
+}
+
+@end

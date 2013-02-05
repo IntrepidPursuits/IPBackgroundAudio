@@ -22,7 +22,6 @@
 		C93B626D1695E8E300960A89 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93B626C1695E8E300960A89 /* AudioToolbox.framework */; };
 		C93B62721695F40900960A89 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93B62711695F40900960A89 /* MediaPlayer.framework */; };
 		C9C614EC16C1676C00E37FAA /* IPBackgroundAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C614E816C1676C00E37FAA /* IPBackgroundAudioManager.m */; };
-		C9C614ED16C1676C00E37FAA /* UIResponder+IPBackgroundAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C614EB16C1676C00E37FAA /* UIResponder+IPBackgroundAudio.m */; };
 		C9C614F016C16A6300E37FAA /* JB_SpaceTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C614EF16C16A6300E37FAA /* JB_SpaceTheme.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -47,9 +46,7 @@
 		C93B626C1695E8E300960A89 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C93B62711695F40900960A89 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		C9C614E816C1676C00E37FAA /* IPBackgroundAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IPBackgroundAudioManager.m; path = ../../IPBackgroundAudioManager.m; sourceTree = "<group>"; };
-		C9C614E916C1676C00E37FAA /* UIResponder+IPBackgroundAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIResponder+IPBackgroundAudio.h"; path = "../../UIResponder+IPBackgroundAudio.h"; sourceTree = "<group>"; };
 		C9C614EA16C1676C00E37FAA /* IPBackgroundAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPBackgroundAudioManager.h; path = ../../IPBackgroundAudioManager.h; sourceTree = "<group>"; };
-		C9C614EB16C1676C00E37FAA /* UIResponder+IPBackgroundAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+IPBackgroundAudio.m"; path = "../../UIResponder+IPBackgroundAudio.m"; sourceTree = "<group>"; };
 		C9C614EF16C16A6300E37FAA /* JB_SpaceTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JB_SpaceTheme.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,10 +100,8 @@
 		C93B623D1695C91600960A89 /* BackgroundAudio */ = {
 			isa = PBXGroup;
 			children = (
-				C9C614E816C1676C00E37FAA /* IPBackgroundAudioManager.m */,
 				C9C614EA16C1676C00E37FAA /* IPBackgroundAudioManager.h */,
-				C9C614E916C1676C00E37FAA /* UIResponder+IPBackgroundAudio.h */,
-				C9C614EB16C1676C00E37FAA /* UIResponder+IPBackgroundAudio.m */,
+				C9C614E816C1676C00E37FAA /* IPBackgroundAudioManager.m */,
 				C93B62461695C91600960A89 /* AppDelegate.h */,
 				C93B62471695C91600960A89 /* AppDelegate.m */,
 				C93B624F1695C91600960A89 /* MainStoryboard.storyboard */,
@@ -203,7 +198,6 @@
 				C93B62481695C91600960A89 /* AppDelegate.m in Sources */,
 				C93B62541695C91600960A89 /* ViewController.m in Sources */,
 				C9C614EC16C1676C00E37FAA /* IPBackgroundAudioManager.m in Sources */,
-				C9C614ED16C1676C00E37FAA /* UIResponder+IPBackgroundAudio.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
